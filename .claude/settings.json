@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan *)",
+      "Bash(php -r \"echo json_decode\\(file_get_contents\\('vendor/maatwebsite/excel/composer.json'\\)\\)->version ?? 'n/a';\")",
+      "Bash(composer show *)",
+      "Bash(npm install *)"
+    ]
+  }
+}

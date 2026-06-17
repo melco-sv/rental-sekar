@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(composer require *)",
+      "PowerShell(Get-ChildItem \"C:\\\\\" -ErrorAction SilentlyContinue | Where-Object {$_.Name -match \"laragon|node|nvm\"} | Select-Object Name, FullName)",
+      "Bash(/c/laragon/bin/nodejs/node-v22/node_modules/npm/bin/npm-cli.js install *)",
+      "Bash(export PATH=\"/c/laragon/bin/nodejs/node-v22:$PATH\")",
+      "Bash(/c/laragon/bin/nodejs/node-v22/node_modules/npm/bin/npm-cli.js run *)"
+    ]
+  }
+}
